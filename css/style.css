@@ -1,0 +1,887 @@
+/* ============================
+   FONT LINK
+=============================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* ============================
+    COMMON CSS
+=============================== */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    width: 95% !important;
+    margin: auto !important;
+}
+a {
+    text-decoration: none;
+}
+/* ============================
+    HEADER CSS
+=============================== */
+header {
+    max-width: 1920px;
+    height: auto;
+    background: #0c426e;
+    text-align: center;
+}
+nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 2% 0px;
+
+}
+nav ul {
+    display: flex;
+}
+nav ul li {
+    list-style: none;
+    padding: 0 40px 0 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+/* ============================
+    HERO SCETION 
+=============================== */
+#hero_sec {
+    padding: 100px 0;
+    background-color: #fafafa;
+}
+.hero-content {
+    display: flex;
+    flex-wrap: wrap;
+}
+.content-text {
+    flex: 1;
+    padding-top: 1.60rem;
+}
+.content-text h2 {
+    font-size: 7rem;
+    margin-bottom: 3rem;
+    line-height: 11rem;
+}
+.content-text p {
+    font-size: 1.7rem;
+    color: #373737;
+    margin-bottom: 6rem;
+}
+.content-text .btn-div {
+    display: flex;
+    gap: 2.5rem;
+}
+.content-text .btn-div .btn {
+    width: 21.2rem;
+    height: 5.7rem;
+    font-size: 1.7rem;
+}
+.content-text .btn-div .btn_blue {
+    background-color: #0c426e;
+    border: 2px solid #0c426e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: normal;
+    transition: 0.4s ease;
+} 
+.content-text .btn-div .btn_blue:hover {
+    background-color: transparent;
+    color: #0c426e;
+    font-weight: bold;
+}
+.content-text .btn-div .btn_gray {
+    background-color: #252525;
+    border: 2px solid #252525;
+    transition: 0.4s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+.content-text .btn-div .btn_gray:hover {
+    background-color: transparent;
+    color: #252525;
+    font-weight: bold;
+}
+
+.content-img {
+    flex: 2;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 3.5rem;
+}
+.con-main-img {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.con-main-img img {
+    max-width: 700px;
+    width: 100%;
+}
+.con-icons {
+    display: flex;
+    flex-direction: column;
+    margin-left: 1.5rem;
+    justify-content: center;
+}
+.con-icons button {
+    width: 40px;
+    height: 40px;
+    background-color: #252525;
+    font-size: 17px;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.5rem;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.con-icons a:nth-child(2){
+    margin-bottom: 0rem;
+}
+/* ============================
+    SERVICES SCETION 
+=============================== */
+#services-sec {
+    background-color: #fff;
+}
+
+/* MAIN TITLE */
+.title-div {
+    text-align: center;
+    padding-top: 10rem;
+    padding-bottom: 9rem;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title-div::before {
+    content: '';
+    position: absolute;
+    bottom: 32%;
+    width: 8rem;
+    height: 1rem;
+    background-color: #252525;
+    border-radius: 5px;
+}
+.title-div span {
+    font-size: 3rem;
+    font-weight: 600;
+   
+}
+.title-div .sp-1 {
+    color: #252525;
+    margin-right: 0.3rem;
+}
+.title-div .sp-2 {
+    color: #0c426e;
+}
+
+.card-div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    width: 40rem;
+    text-align: center;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    overflow: hidden;
+ 
+}
+.card img {
+    width: 100%;
+}
+.card-txt {
+    width: 100%;
+    height: 100%;
+    padding-top: 3rem;
+    padding-bottom: 4.5rem;
+    padding-left: 2.5rem;
+    padding-right: 2.5rem;
+}
+.card-txt h2 {
+    font-size: 2.5rem;
+    color: #252525;
+    margin-bottom: 2rem;
+}
+.card-txt p {
+    font-size: 1.5rem;
+    color: #515151;
+    line-height: 2.5rem;
+    margin-bottom: 3rem;
+}
+.card-txt a {
+    width: 135px;
+    height: 50px;
+    background-color: #252525;
+    color: #fff;
+    font-size: 1.7rem;
+    padding: 15px 29px;
+    margin-bottom: 3.5rem;
+}
+/* ============================
+    QUALITY SCETION 
+=============================== */
+
+.qua-body {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.qua-body img {
+    width: 100%;
+}
+.qua-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+} 
+.qua-header h2 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 9rem;
+}
+.qua-para {
+    max-width: 1300px;
+}
+.qua-para p {
+    font-size: 1.5rem;
+    color: #515151;
+    margin-bottom: 10rem;
+}
+.qua-btn a{
+    padding: 15px 35px;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.4rem;
+    font-weight: bold;
+    transition:  0.3s ease-in;
+}
+.qua-btn a:hover {
+    background-color: #000;
+    color: #fff;
+}
+.overlay-img  {
+    width: 100%;
+    height: 100%;
+    background-image: url('../image/CleanBg.jpg');
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* ============================
+    CHOOSE SCETION 
+=============================== */
+.container-fliud {
+    margin: 0 auto;
+    padding: 0 2.2rem;
+    width: 80%;
+}
+.main-card-box {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.card-box {
+    width: 33rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    padding-left: 4rem;
+    padding-right: 2rem;
+}
+.card-box-2 {
+    width: 33rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 4rem 2rem 4rem 4rem;
+    background-color: #0c426e;
+    color: #fff;
+}
+.box-header {
+    margin-bottom: 3rem;
+}
+.box-num {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #0c426e;
+    padding: 0.9rem;
+    border: 2px solid #0c426e;
+    border-radius: 55%;
+    margin-right: 1rem;
+}
+.box-num-2 {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #fff;
+    padding: 0.9rem;
+    border: 2px solid #fff;
+    border-radius: 55%;
+    margin-right: 1rem;
+}
+.box-txt {
+    font-size: 1.8rem;
+    color: #0c426e;
+    font-weight: 600;
+}
+.box-txt-2 {
+    font-size: 1.8rem;
+    color: #fff;
+    font-weight: 600;
+}
+.box-para {
+    max-width: 25rem;
+}
+.box-p {
+    font-size: 1.6rem;
+    color: #151515;
+}
+.box-p-2 {
+    font-size: 1.6rem;
+    color: #ced9e2;
+}
+/* ============================
+    TESTIMONAI QUERY 
+=============================== */
+#test_sec {
+    padding-bottom: 10rem;
+}
+.main-test-box {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.test-card {
+    display: flex;
+    align-items: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 5rem 4rem 3rem 3rem;
+}
+.test-card  img {
+    max-width: 100%;
+}
+.txt-card {
+    padding-left: 3rem;
+}
+.txt-card p {
+    font-size: 1.4rem;
+    max-width: 55rem;
+}
+.txt-card  h3 {
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 1rem;
+}
+.txt-card a span {
+    font-size: 1.1rem;
+    font-weight: bold;
+    color: #3d688b;
+}
+.box-btn button {
+    outline: none;
+    border: none;
+    background-color: #0c426e;
+    cursor: pointer;
+    padding: 2rem;
+    border-radius: 50%;
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: #fff;
+}
+#box-btn-1 button {
+    background-color: #252525;
+}
+/* ============================
+    MAIN FOOTER
+=============================== */
+#main-footer {
+    width: 100%;
+    height: 100%;
+    background: #252525;
+    color: #fff;
+    padding-top: 15rem;
+}
+.ft-row {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+}
+.column {
+    flex-basis: 25%;
+}
+.footer-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.icon-txt {
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    color: #929292;
+    font-size: 1.6rem;
+}
+.icon-txt a {
+   color: #929292;
+   margin-left: 1.2rem;
+}
+.use-link  ul{
+    list-style: none;
+}
+.use-link ul li a {
+    font-size: 1.6rem;
+    color: #929292;
+} 
+.use-link ul li .home {
+    color: #fff;
+}
+.open-time {
+    display: flex;
+    flex-direction: column;
+    font-size: 1.6rem;
+    color: #929292;
+}
+.email-box {
+    display: flex;
+    flex-direction: column;
+}
+.em-input {
+    padding: 1rem;
+    outline: none;
+    border: none;
+    margin-bottom: 1.2rem;
+}
+.em-input::-webkit-input-placeholder {
+    color: #354160;
+    font-weight: bold;
+}
+.in-btn {
+    width: calc(100% - 20%);
+    padding: 1rem;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #0c426e;
+    outline: none;
+    border: none;
+    font-weight: bold;
+}
+.ft-icons {
+    display: flex;
+    justify-content: center;
+    padding: 7rem 0 7rem 0;
+    gap: 1rem;
+}
+.ft-logo a i {
+    font-size: 3rem;
+    color: #fff;
+    transition: all 0.3s ease;
+}
+.ft-logo a i:hover {
+    color: #929292;
+}
+.copyright {
+    text-align: center;
+    padding-bottom: 1.6rem;
+}
+.copyright p {
+    font-size: 1.6rem;
+}
+/* ============================
+    MEDIA QUERY 
+=============================== */
+@media only screen and (min-width: 1px) and (max-width: 359px)  {
+    .content-text .btn-div {
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+@media only screen and (max-width: 360px){
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        padding: 10px 0;
+    }
+    .logo-div {
+        padding: 10px 0;
+    }
+    .content-text h2 {
+        font-size: 4rem !important;
+        line-height: 5rem !important;
+    }
+    .content-text p {
+        margin-bottom: 4rem;
+    }
+    .title-div span {
+        font-size: 1.8rem;
+    }
+    .content-text .btn-div .btn {
+        width: 14.2rem !important;
+        height: 4.7rem !important;
+        font-size: 1.2rem !important;
+    }
+    .qua-header h2 {
+        font-size: 1rem !important;
+        margin-bottom: 3rem !important;
+    }
+
+    .qua-para p {
+        display: none;
+    }
+    .qua-btn a{
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+    .card-box {
+        padding: 2.4rem 2rem 2.4rem 2.4rem;
+    }
+    .card-box-2 {
+        padding: 2.4rem 2rem 2.4rem 2.4rem;
+    }
+    .box-txt {
+        font-size: 1.5rem;
+    }
+    .box-txt-2 {
+        font-size: 1.5rem;
+    }
+    .box-num {
+        font-size: 1.2rem;
+    }
+    .box-num-2 {
+        font-size: 1.2rem;
+    }
+    .box-p {
+        font-size: 1.2rem;
+    }
+    .box-p-2 {
+        font-size: 1.2rem;
+    }
+
+    .main-test-box {
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+    .test-card {
+        padding: 2rem 3rem 2rem 2rem;
+    }
+     .test-card img {
+        width: 35%;
+    }
+    .txt-card {
+        padding: 2rem;
+    }
+    .txt-card p {
+        font-size: 1rem;
+    }
+    .txt-card h3 {
+        font-size: 1.2rem;
+    }
+    .txt-card a span {
+        font-size: 1rem;
+    }
+    .box-btn button {
+        padding: 1.6rem;
+        font-size: 1.2rem;
+    }
+    .column {
+        text-align: center !important;
+        flex-basis: 100% !important;
+        margin-bottom: 3rem !important;
+    }
+    .column:last-child {
+        margin-bottom: 0;
+    }
+    .in-btn {
+        display: block;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 480px){
+    .title-div span {
+        font-size: 2rem;
+    }
+    .qua-header h2 {
+        font-size: 1rem !important;
+        margin-bottom: 2rem !important;
+    }
+    .qua-para p {
+        /* font-size: 0.8rem !important;
+        margin-bottom: 2rem !important; */
+        display: none;
+    }
+    .qua-btn a{
+        padding: 10px 26px !important;
+        font-size: 1rem !important;
+    }
+    .main-test-box {
+        flex-wrap: wrap;
+        gap: 12px;
+    }
+    .test-card {
+        padding: 2.2rem 3.2rem 2.2rem 2.2rem;
+     }
+     .test-card img {
+        width: 40%;
+    }
+    .txt-card {
+        padding: 2.2rem;
+    }
+    .txt-card p {
+        font-size: 1rem;
+    }
+    .txt-card h3 {
+        font-size: 1.3rem;
+    }
+    .txt-card a span {
+        font-size: 1rem;
+    }
+    .box-btn button {
+        padding: 1.7rem;
+        font-size: 1.3rem;
+    }
+    .card:nth-child(2) {
+        margin-top: 0;
+    }
+    .column {
+        text-align: center !important;
+        flex-basis: 100% !important;
+        margin-bottom: 3rem !important;
+    }
+    .column:last-child {
+        margin-bottom: 0;
+    }
+    .in-btn {
+        display: block;
+        margin: auto;
+    }
+}
+@media only screen and (max-width: 690px) {
+    nav {
+        flex-direction: column;
+        /* align-items: flex-start; */
+    }
+    nav ul {
+        flex-direction: column;
+    }
+    nav ul li {
+        padding: 10px 0;
+    }
+    .logo-div {
+        padding: 10px 0;
+    }
+    .content-text .btn-div .btn {
+        width: 18.2rem;
+        height: 5.7rem;
+        font-size: 1.7rem;
+    }
+    .card {
+        width: 30rem;
+    }
+    .card-div {
+        gap: 2rem;
+    }
+    .card-txt h2 {
+        font-size: 1.8rem;
+    }
+    .card-txt p {
+        font-size: 1.2rem;
+    }
+    .card-txt a {
+        width: 100px;
+        height: 30px;
+        padding: 10px 20px;
+        font-size: 1.5rem;
+        margin-bottom: 3rem;
+    }
+    .qua-header h2 {
+        font-size: 2rem !important;
+        margin-bottom: 1rem;
+    }
+    .qua-para p {
+        font-size: 1rem !important;
+        margin-bottom: 2rem;
+    }
+    .qua-btn a {
+        padding: 10px 26px;
+        font-size: 1.2rem;
+    }
+    .main-test-box {
+        flex-wrap: wrap;
+        gap: 14px;
+    }
+    .ft-row {
+        gap: 4rem;
+    }
+    .column {
+        flex-basis: 45%;
+    }
+}
+@media only screen and (max-width: 768px){
+    html {
+        font-size: 45% !important;
+    }
+    nav ul li {
+        padding: 0 5px 0px !important;
+    }
+    .logo-div {
+        padding: 10px 0;
+    }
+    .logo-div a img {
+        width: 90%;
+    } 
+    .qua-para p {
+        font-size: 1.3rem;
+    }
+    .content-text h2 {
+        font-size: 5rem;
+        margin-bottom: 3rem;
+        line-height: 7rem;
+    }
+    .content-text .btn-div .btn {
+        width: 18.2rem;
+        height: 5.7rem;
+        font-size: 1.7rem;
+    }
+    .card-div {
+        gap: 4rem;
+    }
+    .ft-row {
+        gap: 4rem;
+    }
+    .column {
+        flex-basis: 45%;
+    }
+}
+@media only screen and (max-width: 992px){
+    .content-img {
+        flex: auto;
+        justify-content: center;
+        margin-left: 0px;
+    }
+    .con-main-img {
+        flex-direction: column;
+        align-items: center;
+    }
+    .con-icons {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-left: 0;
+        margin-top: 1.5rem;
+    }
+    .con-icons button {
+        margin-bottom: 0;
+    }
+    .con-icons button:nth-child(1) {
+        order: 1;
+        margin-left: 1.5rem;
+    }
+    .content-text {
+        text-align: center;
+        padding-bottom: 1.60rem;
+    }
+    .content-text .btn-div {
+        justify-content: center;
+    }
+    .qua-header h2 {
+        margin-bottom: 3rem;
+    }
+    .qua-para p {
+        margin-bottom: 3rem;
+    }
+    .main-card-box {
+        justify-content: space-around;
+    }
+    .main-test-box {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+    .card-div {
+        gap: 4rem;
+    }
+    .ft-row {
+        gap: 4rem;
+    }
+    .column {
+        flex-basis: 45%;
+    }
+}
+@media only screen and (max-width: 1024px){
+    html {
+        font-size: 55% !important;
+    }
+    nav ul li {
+        padding: 0 20px 0 0;
+    }
+    nav ul li a {
+        font-size: 14px;
+    }
+    .main-card-box {
+        justify-content: space-around;
+    }
+    .main-test-box {
+        gap: 15px;
+    }
+}   
+@media only screen and (max-width: 1300px) {
+    .card-div {
+        justify-content: space-evenly;
+    }
+    .card:nth-child(3) {
+        margin-top: 4rem;
+    }
+    .main-card-box {
+        justify-content: center;
+        gap: 1.5rem;
+    }
+    .main-test-box {
+        gap: 15px;
+    }
+} 
+@media only screen and (max-width: 1920px) {
+    .container{
+        width: 92% !important;
+        margin: auto;
+    }
+}
+
+
+

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clean Car</title>
+    <!-- ========================
+        STYLE CSS
+    ============================== -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- ========================
+        FAVICON LINKED
+    ============================== -->
+    <link rel="shortcut icon" href="/image/favicon.png" type="image/x-icon">
+    <!-- ========================
+        FONTAWESOME CDN
+    ============================== -->
+    <script src="https://kit.fontawesome.com/a0bb5f4cde.js" crossorigin="anonymous"></script>
+   <!-- ========================
+        AOS CDN
+    ============================== -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- ========================
+        HEADER AREA
+    ============================== -->
+    <header id="Header">
+        <div class="container">
+            <nav>
+                <div class="logo-div">
+                    <a href="#"><img src="image/nav-logo.png" alt=""></a>
+                </div>
+                <ul>
+                    <li><a href="#">home</a></li>
+                    <li><a href="#">services</a></li>
+                    <li><a href="#">quality</a></li>
+                    <li><a href="#">choose</a></li>
+                    <li><a href="#">testmonial</a></li>
+                    <li><a href="#">contact us</a></li>
+                </ul>
+                <div class="logo-div">
+                    <a href="#"><img src="image/search-log.png" alt=""></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- ========================
+        HERO AREA
+    ============================== -->
+    <section id="hero_sec">
+        <div class="container">
+            <div class="hero-content">
+                <div class="content-text" data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">
+                    <h2 class="con-h2">Keep your Clean Cars Always </h2>
+                    <p class="con-p">There are many variations of passages of Lorem </p>
+                    <div class="btn-div">
+                        <a class="btn btn_blue" href="#">Get A Quote</a>
+                        <a class="btn btn_gray" href="#">Contact Us</a>
+                    </div>
+                </div>
+                <div class="content-img" data-aos="fade-left" data-aos-duration="1000" data-aos-mirror="true">
+                    <div class="con-main-img">
+                        <img id="main-img" class="con-photo" src="image/a.jpg" alt=""> 
+                        <div class="con-icons">
+                            <button id="next" onclick="next()"><i class="fa-solid fa-arrow-right"></i></a>
+                            <button id="prev" onclick="prev()"><i class="fa-solid fa-arrow-left"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ========================
+        SERVICES SECTION
+    ============================== -->
+        <section id="services-sec">
+            <div class="container">
+                <!-- MAIN TITLE -->
+                <div class="title-div" data-aos="fade-right" data-aos-duration="1000" data-aos-mirror="true">
+                    <span class="sp-1">Our</span>
+                    <span class="sp-2">Services</span>
+                </div>
+                <!-- CARD NO 1 -->
+                <div class="card-div" data-aos="fade-up-right" data-aos-duration="1000" data-aos-offset="300">
+                    <div class="card">
+                        <img src="image/CleanCard-1.jpg" alt="">
+                        <div class="card-txt">
+                            <h2>Express Exterior</h2>
+                            <p>It is a long established fact that a reader will be distracted Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptates ullam ea! Molestias facere distinctio ea dolores vero natus earum ab nulla, cupiditate dolorum consectetur suscipit similique possimus odit dicta.</p>
+                            <a class="card-btn" href="#">See More</a>
+                        </div>
+                    </div>
+                    <!-- CARD NO 2 -->
+                    <div class="card"  data-aos="flip-up" data-aos-duration="1000" data-aos-offset="300">
+                        <img src="image/CleanCard-2.jpg" alt="">
+                        <div class="card-txt">
+                            <h2>Auto Detailing </h2>
+                            <p>It is a long established fact that a reader will be distracted Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptates ullam ea! Molestias facere distinctio ea dolores vero natus earum ab nulla, cupiditate dolorum consectetur suscipit similique possimus odit dicta.</p>
+                            <a class="card-btn" href="#">See More</a>
+                        </div>
+                    </div>
+                    <!-- CARD NO 3 -->
+                    <div class="card" data-aos="fade-left" data-aos-duration="1000" data-aos-offset="300">
+                        <img src="image/CleanCard-3.jpg" alt="">
+                        <div class="card-txt">
+                            <h2>Full Service Car Wash</h2>
+                            <p>It is a long established fact that a reader will be distracted Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptates ullam ea! Molestias facere distinctio ea dolores vero natus earum ab nulla, cupiditate dolorum consectetur suscipit similique possimus odit dicta.</p>
+                            <a class="card-btn" href="#">See More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- ========================
+        QUALITY SECTION
+    ============================== -->
+        <section id="quality-sec" >
+            <!-- MAIN TITLE -->
+            <div class="title-div" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300">
+                <span class="sp-1">We’re Providing Best </span>
+                <span class="sp-2">Quality Service</span>
+            </div>
+                <div class="qua-body" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300">
+                    <img class="overlay-img" src="image/CleanBg.jpg" alt="">
+                    <div class="container">
+                        <div class="qua-content">
+                            <div class="qua-header">
+                                <h2>Clean  And  Quality</h2>
+                            </div>
+                            <div class="qua-para">
+                                <p>It is a long established fact that a reader will be distracted Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tempore voluptates ullam ea! Molestias facere distinctio ea dolores vero natus earum ab nulla, cupiditate dolorum consectetur suscipit similique possimus odit dicta. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Fugit, expedita!</p>
+                            </div>
+                            <div class="qua-btn">
+                                <a href="#">Get A Quote</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </section>
+    <!-- ========================
+        CHOOSE SECTION
+    ============================== -->
+        <section id="choose_sec">
+            <!-- MAIN TITLE -->
+            <div class="title-div" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="300">
+                <span class="sp-1">Why</span>
+                <span class="sp-2">Choose Us?</span>
+            </div>
+            <div class="container-fliud">
+                <div class="main-card-box">
+                     <!-- CARD NO 1 -->
+                    <div class="card-box" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400">
+                        <div class="box-header">
+                            <span class="box-num">
+                                01
+                            </span>
+                            <span class="box-txt">
+                                Trusted Services
+                            </span>
+                        </div>
+                        <div class="box-para">
+                            <p class="box-p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The  </p>
+                        </div>
+                   </div>
+                    <!-- CARD NO 2 -->
+                   <div class="card-box-2" data-aos="flip-up" data-aos-duration="1000" data-aos-offset="400">
+                        <div class="box-header">
+                            <span class="box-num-2">
+                                02
+                            </span>
+                            <span class="box-txt-2">
+                                Talented Workers
+                            </span>
+                        </div>
+                        <div class="box-para">
+                            <p class="box-p-2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The  </p>
+                        </div>
+                    </div>
+                     <!-- CARD NO 3 -->
+                    <div class="card-box" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400">
+                        <div class="box-header">
+                            <span class="box-num">
+                                03
+                            </span>
+                            <span class="box-txt">
+                                Organic Products
+                            </span>
+                        </div>
+                        <div class="box-para">
+                            <p class="box-p">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The  </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- ========================
+        TESTIMONIAL SECTION
+    ============================== -->
+        <section id="test_sec">
+            <!-- MAIN TITLE -->
+            <div class="title-div" data-aos="fade-right" data-aos-duration="1000" data-aos-offset="400">
+                <span class="sp-1">Testimonial</span>
+            </div>
+            <div class="container-fliud">
+                <div class="main-test-box" data-aos="flip-left" data-aos-duration="1000" data-aos-offset="410">
+                    <div id="box-btn-1" class="box-btn"><button><i class="fa-solid fa-arrow-left"></i></button></div>
+                    <div class="test-card autoplay">
+                        <img src="image/CleanCars_Avator.jpg" alt="">
+                       <div class="txt-card">
+                        <p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that</p>
+                        <h3>Joech</h3>
+                        <a href="#"><span>Customer</span></a>
+                       </div>
+                    </div>
+                    <div class="box-btn"><button><i class="fa-solid fa-arrow-right"></i></button></div>
+                </div>
+            </div>
+        </section>
+    <!-- ========================
+        FOOTER SECTION
+    ============================== -->
+        <footer id="main-footer">
+            <div class="container">
+                <div class="ft-row">
+                    <div class="column">
+                        <div class="col-1">
+                            <h3 class="footer-title">Contact Us</h3>
+                        <div class="icon-txt">
+                            <span class="loc">
+                                <i class="fa-solid fa-location-dot"></i>
+                                <a href="#">Location</a>
+                            </span>
+                            <span class="call">
+                                <i class="fa-solid fa-phone"></i>
+                                <a href="#">Call +01 1234567890</a>
+                            </span>
+                            <span class="email">
+                                <i class="fa-solid fa-envelope"></i>
+                                <a href="#">demo123@gmil.com</a>
+                            </span>
+                        </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="col-2">
+                            <h3 class="footer-title">Useful link</h3>
+                            <div class="use-link">
+                                <ul>
+                                    <li><a class="home" href="#">Home</a></li>
+                                    <li><a href="#">Services</a></li>
+                                    <li><a href="#">Quality</a></li>
+                                    <li><a href="#">Choose</a></li>
+                                    <li><a href="#">Testmonial</a></li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="col-3">
+                            <h3 class="footer-title">Opening Time</h3>
+                            <div class="open-time">
+                                <span>Mon : 07;00am   to  09:00 pm  </span>
+                                <span>Mon : 07;00am   to  09:00 pm  </span>
+                                <span>Mon : 07;00am   to  09:00 pm  </span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="column">
+                        <div class="col-4">
+                            <h3 class="footer-title">Newsletter</h3>
+                            <div class="email-box">
+                                <input class="em-input" type="email" placeholder="Enter Your Email">
+                                <button class="in-btn">subscribe</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="ft-icons">
+                    <span class="ft-logo">
+                        <a href="#">
+                            <i class="fa-brands fa-facebook"></i>
+                        </a>
+                    </span>
+                    <span class="ft-logo">
+                        <a href="#">
+                            <i class="fa-brands fa-square-twitter"></i>
+                        </a>
+                    </span>
+                    <span class="ft-logo">
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin"></i>
+                        </a>
+                    </span>
+                    <span class="ft-logo">
+                        <a href="#">
+                            <i class="fa-brands fa-square-instagram"></i>
+                        </a>
+                    </span>
+                </div>
+                <div class="copyright">
+                    <p>© 2020 All Rights Reserved. Design by Free Html Templates</p>
+                </div>
+            </div>        
+        </footer>
+
+
+
+    <!-- ========================
+        MAIN JS
+    ============================== -->
+    <script src="./js/main.js"></script>
+    <!-- ========================
+        AOS JS
+    ============================== -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                duration: 1000,
+            }
+        );
+      </script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+  
